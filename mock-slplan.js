@@ -1,7 +1,4 @@
 
-
-//const SLPLANSIMPLEMOCK = module.exports = "SIMPLE MOCK PLAN";
-
 const SLPLANMOCK = module.exports = 
 {
     "TripList": {

@@ -1,5 +1,5 @@
 var restify = require('restify');
-const bot = require('./bot.js');
+const bot = require('./bot.js'); 
 
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function() {
