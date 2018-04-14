@@ -1,0 +1,15 @@
+{
+  "name": "obot",
+  "version": "1.0.0",
+  "description": "OBot - the first Olof bot!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olof Wallin",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.14.1",
+    "restify": "^7.1.0"
+  }
+}
