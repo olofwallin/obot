@@ -4,8 +4,8 @@ var mockSlPlan = require('./mock-slplan.js');
 
 
 const connector = new builder.ChatConnector({
-    appId: process.env.MICROSOFT_APP_ID,
-    appPassword: process.env.MICROSOFT_APP_PASSWORD
+    appId: "674cabcb-5399-48da-8807-6aa44ae33490", //process.env.MICROSOFT_APP_ID,
+    appPassword: "$/$N>]=MPTZYc0U#" //process.env.MICROSOFT_APP_PASSWORD
 }); 
 
 var bot = module.exports = new builder.UniversalBot(connector, function (session) {
